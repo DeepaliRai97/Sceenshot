@@ -16,7 +16,7 @@ const Screenshot = ({navigation}) => {
   //const [savedImagePath, setSavedImagePath] = useState('');
 
   const takeScreenShot = () => {
-    // To capture Screenshot
+    // To capture Screenshot //
     captureScreen({
       format: 'jpg',
       quality: 0.8, 

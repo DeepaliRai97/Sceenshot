@@ -2,7 +2,7 @@ import * as React from 'react';
 import { View, Text ,TouchableOpacity,StyleSheet} from 'react-native';
 import CameraRoll from "@react-native-community/cameraroll";
 import { PermissionsAndroid, Platform } from "react-native";
-
+//
 const Download = props => {
   const uri = props.navigation.getParam('screenshot');
   async function hasAndroidPermission() {
